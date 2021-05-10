@@ -1,0 +1,19 @@
+#!/bin/bash
+pwd
+whoami
+cd folder2
+mkdir folder1.1
+mkdir folder1.2
+mkdir folder1.3
+cd folder1.1
+touch 1.txt
+touch 2.txt
+touch 1.json
+touch 2.json
+touch 3.json
+mkdir folder1.1
+mkdir folder1.2
+mkdir folder1.3
+ls -la
+git mv 1.txt/ mkdir folder1.1
+git mv 1.json/ mkdir folder1.1
