@@ -15,5 +15,5 @@ mkdir folder1.1
 mkdir folder1.2
 mkdir folder1.3
 ls -la
-git mv 1.txt/ mkdir folder1.1
-git mv 1.json/ mkdir folder1.1
+git mv 1.txt folder1.1/
+git mv 1.json folder1.1/
